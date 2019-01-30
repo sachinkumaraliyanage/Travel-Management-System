@@ -1,4 +1,4 @@
-This system use PHPMailer-master,plugin-mail-master for sending email it credit gise to it creaters
+This system use PHPMailer-master,plugin-mail-master for sending email it credit gose to it creaters
 
 if you test this in online server you can use php email sending function 
 I use PHPMailer-master because I test this system in localhost
