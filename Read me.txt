@@ -19,4 +19,10 @@ for change database do changing those files in 'include' folder
 *country_list.php
 
 
+change email setting in check/validate_email.php
+line 27,28,32,33
+
+add google map url in MAp.php line 117
+
 if you have any question please contact me
+sachinkumaraliyanage@gmail.com
