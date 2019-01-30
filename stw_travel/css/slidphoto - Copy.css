@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+
+.mySlides {display:none;}
+.slimg{
+	max-width:95%; 
+	margin-top:0%; 
+	margin-left:2.5%
+}

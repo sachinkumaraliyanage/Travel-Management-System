@@ -1,0 +1,107 @@
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea ,input[type=password],input[type=number],input[type=email] {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit],input[type=button] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover,input[type=button]:hover {
+    background-color: #45a049;
+
+}
+#del {
+    background-color: #f44336;
+    
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+#del:hover {
+    opacity: 0.8;
+
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #474545;
+    padding: 20px;
+	width:92%; 
+	 
+	margin-left:2.5%;
+}
+#chpass {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 30%;
+    display: block;
+
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+#chpass:hover {
+    background-color: #45a049;
+
+}
+#p{
+    width: 70%;
+    float: left;
+}
+@media only screen and (max-width: 300px) 
+{
+    #chpass {
+        width: 150px;
+    }
+}
+#new{
+    display: none;
+}
+#edbut{
+    display:block;
+}
+#b{
+   display:block; 
+}
+
+.del {
+    background-color: #f44336;
+    
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+.del:hover {
+    opacity: 0.8;
+
+}

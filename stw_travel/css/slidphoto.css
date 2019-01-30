@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+.mySlides {display:none;}
+.slimg{
+	max-width:95%; 
+	margin-top:0%; 
+	margin-left:2.5%
+}
+
+
+
+/* Slideshow container */
+.slideshow-container {
+	max-width:95%; 
+	margin-top:0%; 
+	margin-left:2.5%
+  /*max-width: 1000px;
+  position: relative;
+  margin: auto;*/
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 4s;
+  animation-name: fade;
+  animation-duration: 4s;
+}
+.fad {
+  -webkit-animation-name: fad;
+  -webkit-animation-duration: 2s;
+  animation-name: fad;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .0} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .0} 
+  to {opacity: 1}
+}
+@-webkit-keyframes fad {
+  from {opacity: 1} 
+  to {opacity: 0.05}
+}
+
+@keyframes fad {
+  from {opacity: 1} 
+  to {opacity: 0.05}
+}
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}

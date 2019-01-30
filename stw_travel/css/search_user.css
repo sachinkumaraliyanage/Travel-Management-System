@@ -1,0 +1,67 @@
+.form1{
+	width:50%;
+	font-size: 16px;
+	border: 2px solid black;
+}
+@media only screen and (max-width: 800px) 
+{
+	.form1{
+		width: 300px;
+		font-size: 14px;
+	}
+
+}
+#se{
+    width:75%;
+    margin-left: 20%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('../img/searchicon.png');
+    background-position: 2px 2px; 
+    background-repeat: no-repeat;
+    padding: 1px 1px 1px 30px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+   /* position: absolute;
+    margin-left: 5%;*/
+    /*float: right;*/
+}
+
+.re{
+	background-color: black;
+	color: white;
+	font-size: 15px; 
+	width:75%;
+    margin-left: 20%;
+    margin-top: 0px;
+}
+.re:hover{
+	background-color: #00ffce;
+	color: black;
+
+}
+.re:focus{
+	background-color: red;
+	color: white;
+}
+.ree{
+	background-color: black;
+	color: white;
+	font-size: 15px; 
+	width:75%;
+    margin-left: 20%;
+}
+#livesearch{
+	margin-top: 0px;
+}
+.containe {
+    border-radius: 5px;
+    background-color: #474545;
+    padding: 20px;
+	width:92%; 
+	 
+	margin-left:2.5%;
+}

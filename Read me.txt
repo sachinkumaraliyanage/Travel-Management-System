@@ -1,0 +1,22 @@
+This system use PHPMailer-master,plugin-mail-master for sending email it credit gise to it creaters
+
+if you test this in online server you can use php email sending function 
+I use PHPMailer-master because I test this system in localhost
+
+database script in 'databese' folder
+
+for change database do changing those files in 'include' folder
+
+*connect_gallery.php
+*connect_hcata.php
+*connect_Hotel.php
+*connect_mail_validate.php
+*connect_passreset.php
+*connect_pay.php
+*connect_tcat.php
+*connect_tour.php
+*connect_user.php
+*country_list.php
+
+
+if you have any question please contact me

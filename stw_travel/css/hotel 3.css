@@ -1,0 +1,72 @@
+body{
+	background-color: #716F6E;
+	font-family:"pm","open sans",arial,helvetica,sans-serif;
+}
+h1{
+	margin-left: 20px;
+}
+
+h2{
+		color: red;
+		margin-left: 10px;
+}
+p{
+	color: #999999;
+	box-sizing: border-box;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+span{
+	margin-left: 70px;
+}
+
+.row{
+		
+    display: table;
+    clear: both;
+    width: 100%;
+    background-color: #000;
+    height:350px;
+
+
+}
+.arrow{
+	width: 21px;
+	height: 57px;
+	margin-left: auto;
+	top: 0;
+	left: auto;
+	bottom: 0;
+	right: 0;
+	display: block;
+	background: url(../img/p/t2-img-arrow.png) 50% 50% no-repeat;
+}
+.row:hover{
+		
+
+}
+
+.column{
+	float:left;
+    width: 50%;
+    padding: 10px;
+    height: 300%;
+    align-self: center;
+}
+.lol:hover{
+	background:#00ffce;
+	color:#000;
+	}
+	.lol{
+	line-height:40px;
+	padding:10px 30px;
+	background:#000;
+	color:#00ffce;
+	border:1px solid #1abc9d;
+	border-radius:3px;
+	font-weight:bold;
+	font-size:15px;
+	margin-left:70px;
+	margin-top:0
+	color:#00ffce;
+}
